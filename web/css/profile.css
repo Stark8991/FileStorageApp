@@ -1,0 +1,90 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 14-Feb-2024, 12:01:40 am
+    Author     : Prasant
+*/
+
+
+
+.circular-image {
+    width: 50px; /* Set the width and height of the circular image */
+    height: 50px;
+    border-radius: 50%; /* Make it circular */
+    overflow: hidden; /* Hide the parts of the image that extend beyond the circular boundary */
+    cursor: pointer; /* Add pointer cursor to indicate clickable element */
+  }
+.circular-image img {
+   width: 100%; /* Ensure the image takes up the entire space of the circular div */
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the entire area */
+  }
+
+  .btn-success{
+      background-color: #5cd666!important;
+      padding-left:12px!important;
+      padding-right: 12px!important;
+  }
+  .btn-danger{
+      background-color: #ed2f2f!important;
+      padding-left:12px!important;
+      padding-right: 12px!important;
+  }
+
+  .headingName{
+      text-align: center!important;
+  }
+  
+    .mgl{
+      margin-left: 10%;
+  }
+
+  main{
+      margin-top: 5vh;
+  }
+  
+  .files{
+      margin-top: 0.5rem;
+      border-top-color: black;
+      border-top-width: 2px;
+  }
+    .fileName p {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .border-top{
+        border-top-style:solid;
+    }
+    .container-main {
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        margin: 0 10%;
+    }
+    .actions{
+        /*border-style:solid;*/
+        margin-top:11px;
+    }
+
+
+    /* Optional styles to match your existing styles */
+    .fa {
+        /*font-size: 0px;*/
+        color: black;
+    }
+        .actions-button {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px; /* Adjust as needed */
+        height: 30px; /* Adjust as needed */
+        border: 0px!important;
+        background: white!important;
+    }
+    .fileSizediv{
+        margin-top:17px;
+    }
